@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2EBF7E2F1407CED0009C49BB /* SSL-Strip-Helper.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "SSL-Strip-Helper.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2EBF7E261407CEBC009C49BB = {
+			isa = PBXGroup;
+			children = (
+				2EBF7E2F1407CED0009C49BB /* SSL-Strip-Helper.sh */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		2EBF7E281407CEBC009C49BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = fsefsef;
+			};
+			buildConfigurationList = 2EBF7E2B1407CEBC009C49BB /* Build configuration list for PBXProject "SSL-Strip-Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EBF7E261407CEBC009C49BB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2EBF7E2D1407CEBC009C49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2EBF7E2E1407CEBC009C49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EBF7E2B1407CEBC009C49BB /* Build configuration list for PBXProject "SSL-Strip-Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBF7E2D1407CEBC009C49BB /* Debug */,
+				2EBF7E2E1407CEBC009C49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EBF7E281407CEBC009C49BB /* Project object */;
+}
