@@ -42,7 +42,7 @@ function run() {
     fi
     xterm -T "ArpSpoofing $TARGET" -geometry 100x15 -e $command &
 
-    # Strip that SSL! (in different window)
+    # Strip that SSL! in a separate window
     command="sslstrip -a -k -f"
     xterm -T "SSLStrip" -geometry 100x15 -e $command &
 
