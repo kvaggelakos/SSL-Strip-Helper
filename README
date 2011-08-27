@@ -1,0 +1,5 @@
+[GLOBAL]
+This script is written by me to simplify the process of using the sslstrip script written by Moxie Marlinspike.
+
+[HOWTO]
+Run 'bash SSL-Strip-Helper.sh'. When the script runs it will prompt you for the information needed!
